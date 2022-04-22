@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #001c39, #002143);
+}
+.container{
+    width: 690px;
+    border-radius: 7px;
+    padding: 30px;
+    border-radius: 13px;
+   
+    box-shadow:  19px 19px 30px #000f1f,
+    -19px -19px 30px #002f5f;
+}
+.wrapper{
+    border-radius: 5px;
+    
+}
+.wrapper .text-input{
+    display: flex;
+   
+}
+.text-input .to-text{
+   
+    border-radius: 0px;
+}
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+.text-input textarea{  
+    box-shadow: inset 19px 19px 30px #000f1f,
+        inset -19px -19px 30px #002f5f
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.controls .row.from .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+}
+.controls .row.to .icons{
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+.controls .icons{
+    width: 38%;
+}
+.controls .icons i{
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: #001F3F;
+    color: #fff;
+}
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: rgb(118, 118, 118);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
